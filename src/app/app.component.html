@@ -1,0 +1,5 @@
+<p>
+	Image uploader :)
+</p>
+<img [src]="image"  (click)="selectImage.click()">
+<input type="file" (change)="updateImage($event)" style="display: none" #selectImage>
